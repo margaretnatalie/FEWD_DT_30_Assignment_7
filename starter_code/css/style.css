@@ -314,7 +314,39 @@ header nav ul li {
   font-size: 18px;
 }
 #sidebar {
-  display: none;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 35px;
+}
+#sidebar h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #043049;
+}
+#sidebar ul {
+  margin-bottom: 15px;
+}
+#sidebar ul li a {
+  color: #043049;
+  font-size: 18px;
+}
+#sidebar p {
+  font-size: 16px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+#sidebar p a {
+  color: #043049;
+  font-weight: 600;
+}
+#sidebar img {
+  width: 80% ;
+}
+#bottom-cta {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
 }
 #hero h2 {
   font-size: 28px;
@@ -329,7 +361,7 @@ header nav ul li {
 font-size: 36px
 }
 #posts {
-  width: 650px;
+  width: 400px;
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
